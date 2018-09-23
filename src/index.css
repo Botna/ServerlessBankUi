@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-image: url("./images/background.jpg");
+  background-size: cover;
+}
+.login_paper{
+  width: 450px;
+  margin: auto;
+  margin-top: 350px;
+
+}
+.textFieldOffset{
+  margin:0px 0px 0px 5px;
+  margin-left: 5px;
+}
+.buttonRightAlignment{
+  margin-top:10px;
+  float:right;
+}
+
+.balanceCard{
+  width: 80%;
+  overflow-x: auto;
+  margin: auto;
+  margin-top: 15px;
+}
+.transactionCard{
+  width: 80%;
+  overflow-x: auto;
+  margin: auto;
+  margin-top: 50px;
+}
+.depositWithdrawl{
+  width: 450px;
+}
+.popup-content {
+  width: 450px;
+}
+.buttonRightJustify{
+  float: right
+}

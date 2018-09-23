@@ -1,0 +1,32 @@
+{
+  "name": "bank-server-ui",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "http://botna.github.io/ServerlessBankUi",
+  "dependencies": {
+    "@material-ui/core": "^3.1.0",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
+    "react-number-format": "^3.6.0",
+    "react-redux": "^5.0.7",
+    "react-router": "^4.3.1",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "1.1.5",
+    "react-toastify": "^4.3.1",
+    "reactjs-popup": "^1.2.0",
+    "redux": "^4.0.0",
+    "redux-mock-store": "^1.5.3",
+    "redux-thunk": "^2.3.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "devDependencies": {
+    "gh-pages": "^2.0.0"
+  }
+}

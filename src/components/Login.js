@@ -28,6 +28,7 @@ class Login extends Component {
         });
     };
     componentWillReceiveProps(props) {
+        console.log("newProps");
         if (props.success !== "") {
             this.successToast(props.success);
         }
